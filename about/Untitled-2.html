@@ -79,14 +79,17 @@
 
 
 
+<meta name="description" content="布局练习                     baseline         baseline         baseline         baseline         baseline        .flex-container{     display:flex;     display:-weblit-flex;     align-items: baselin">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/about/完全版.html">
+<meta property="og:url" content="http://yoursite.com/about/Untitled-2.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="布局练习                     baseline         baseline         baseline         baseline         baseline        .flex-container{     display:flex;     display:-weblit-flex;     align-items: baselin">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-11-01T11:40:44.863Z">
+<meta property="og:updated_time" content="2019-12-20T08:29:21.327Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="布局练习                     baseline         baseline         baseline         baseline         baseline        .flex-container{     display:flex;     display:-weblit-flex;     align-items: baselin">
 
 
 
@@ -116,7 +119,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/about/完全版.html">
+  <link rel="canonical" href="http://yoursite.com/about/Untitled-2.html">
 
 
 
@@ -254,7 +257,77 @@
       <div class="post-body">
         
         
-          
+          <!DOCTYPE HTML>
+<html lang="CN">
+    <title>布局练习</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</html>
+<body>
+    <div class="flex-container">
+        <div class="flex-item-1"><span id="text-top">baseline</span></div>
+        <div class="flex-item-2"><span id="text-middle">baseline</span></div>
+        <div class="flex-item-3"><span id="text-bottom">baseline</span></div>
+        <div class="flex-item-4"><span>baseline</span></div>
+        <div class="flex-item-5"><span>baseline</span></div>
+    </div>
+</body>
+<style>
+.flex-container{
+    display:flex;
+    display:-weblit-flex;
+    align-items: baseline;
+    background-color: silver;
+    width: 94em;
+    height: 70em;
+}
+.flex-item-1{
+    background-color:red;
+    order:1;
+    flex:2,1,auto;
+    width: 14em;
+    height: 30em;
+}
+.flex-item-2{
+    background-color:orange;
+    order:1;
+    flex:2,1,auto;
+    width: 14em;
+    height: 36em;
+}
+.flex-item-3{
+    background-color:yellow;
+    order:3;
+    flex:2,1,auto;
+    width: 14em;
+    height: 15em;
+    align-self: flex-end;
+}
+.flex-item-4{
+    background-color:green;
+    flex:2,1,auto;
+    order:2;
+    width: 14em;
+    height: 25em;
+}
+.flex-item-5{
+    background-color:rgb(37, 189, 197);
+    float: right;
+    order:2;
+    width: 14em;
+    height: 25em;
+}
+#text-top{
+    font-style: italic;
+    line-height: 10em;
+}
+#text-middle{
+    font-style: oblique;
+}
+#text-bottom{
+    font-size: 1em;
+}
+</style>
+
         
       </div>
       
